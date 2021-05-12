@@ -21,12 +21,14 @@ Qual a solução para este caso? O que deve ser feito? Justifique com a IMPLEMEN
 
 7. Após a alteração solicitada pelo exercício 6 (anterior) eu ainda consigo executar o código
 abaixo? JUSTIFIQUE sua resposta.
-    class TesteAcessoDireto {
-        public static void main(String[]) args {
-            Conta minhaConta = new Conta();
-            minhaConta.saldo = 1000;
-        }
+```java
+class TesteAcessoDireto {
+    public static void main(String[]) args {
+        Conta minhaConta = new Conta();
+        minhaConta.saldo = 1000;
     }
+}
+```
 
 8. Modele um Funcionário. Ele deve ter o nome do funcionário, o departamento onde trabalha, seu salário, a data de entrada no banco e seu RG.
 
