@@ -17,8 +17,16 @@ quantidade de valor. Obs: Um método pode ou não retornar um valor para quem o 
 para DUAS contas correntes diferentes.
 
 6. NÃO devemos permitir que os atributos da Conta Corrente sejam acessados de fora da classe.
-Qual a solução para este caso? O que deve ser feito? Justifique com a IMPLEMENTAÇÃO.7. Após a alteração solicitada pelo exercício 6 (anterior) eu ainda consigo executar o código
+Qual a solução para este caso? O que deve ser feito? Justifique com a IMPLEMENTAÇÃO.
+
+7. Após a alteração solicitada pelo exercício 6 (anterior) eu ainda consigo executar o código
 abaixo? JUSTIFIQUE sua resposta.
+    class TesteAcessoDireto {
+        public static void main(String[]) args {
+            Conta minhaConta = new Conta();
+            minhaConta.saldo = 1000;
+        }
+    }
 
 8. Modele um Funcionário. Ele deve ter o nome do funcionário, o departamento onde trabalha, seu salário, a data de entrada no banco e seu RG.
 
