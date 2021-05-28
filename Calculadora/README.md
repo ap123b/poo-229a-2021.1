@@ -6,6 +6,6 @@ Fazer um programa de calculadora usando o modelo passado utilizando pacotes
 
 # Como compilar e executar
 ```shell
-$ javac -d . mypack.java
-$ java mypack.class
+~$ javac -d . mypack.java
+~$ java mypack.class
 ```
