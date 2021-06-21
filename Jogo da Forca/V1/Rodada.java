@@ -1,3 +1,5 @@
+package V1;
+
 // Rodada
 import java.util.ArrayList;
 import java.util.Random;
@@ -79,11 +81,14 @@ public class Rodada {
 
     public void escolherPalavra()
     {
-        this.escolherTema();
+        if(temas.size() > 0)
+        {
+            this.escolherTema();
 
-        Random gerador = new Random();
-        Integer index = gerador.nextInt(tema.getPalavraOuFrase().size());
+            Random gerador = new Random();
+            Integer index = gerador.nextInt(tema.getPalavraOuFrase().size());
 
-        this.setPalavraOuFrase(tema.getPalavraOuFrase().get(index));
+            this.setPalavraOuFrase(tema.getPalavraOuFrase().get(index));   
+        }
     }
 }

@@ -1,3 +1,5 @@
+package V1;
+
 // Banco de palavras
 import java.util.ArrayList;
 

@@ -1,3 +1,5 @@
+package V1;
+
 // Onde a mágia acontece
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -64,6 +66,11 @@ public class Jogo {
                             if(found)
                             {
                                 resposta += c;
+                            }
+
+                            else if(c == ' ')
+                            {
+                                resposta += " ";
                             }
         
                             else
