@@ -5,7 +5,7 @@ Repositório criado com o intuito de facilitar compartilhar arquivos de trabalho
 # Iniciando
 Para iniciar, copie o repositório para sua máquina\
 ```
-git clone git@github.com:ap123b/tlp1-2021.2.git
+git clone git@github.com:ap123b/poo-229a-2021.1.git
 ```
 
 Caso queira atualizar o repositório, siga as seguintes etapas\
