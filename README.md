@@ -1,4 +1,4 @@
-# TProgramação Orientada a Objetos - 2021.1
+# Programação Orientada a Objetos - 2021.1
 
 Repositório criado com o intuito de facilitar compartilhar arquivos de trabalhos e tarefas realizadas ao decorrer do semestre.
 
